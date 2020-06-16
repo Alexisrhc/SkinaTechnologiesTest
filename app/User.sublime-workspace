@@ -1,0 +1,463 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"condominu",
+				"condominiumId"
+			],
+			[
+				"data",
+				"dataLive"
+			],
+			[
+				"bgp",
+				"bgpy\tbackground-position-y"
+			],
+			[
+				"co",
+				"colmrc\tcolumn-rule-color"
+			],
+			[
+				"c",
+				"contain\tbackground-size"
+			],
+			[
+				"w",
+				"w-a\twidth: auto;"
+			],
+			[
+				"rou",
+				"route"
+			],
+			[
+				"ro",
+				"route"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"aut",
+				"autocomplete\tAttr"
+			],
+			[
+				"Modu",
+				"ModuleRequest"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"MO",
+				"ModuleRequest"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"req",
+				"request"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 182.0,
+		"history":
+		[
+			"exit",
+			"cls",
+			"php artisan"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/laragon/www/examen/app/View/Components/table.php",
+		"/C/laragon/www/examen/resources/views/home.blade.php",
+		"/C/laragon/www/examen/resources/views/components/table.blade.php",
+		"/C/laragon/www/examen/database/seeds/SubCategorySeeder.php",
+		"/C/laragon/www/examen/database/migrations/2020_06_13_224615_create_sub_categories_table.php",
+		"/C/laragon/www/examen/resources/views/layouts/main.blade.php",
+		"/C/laragon/www/cas-app/resources/views/components/table.blade.php",
+		"/C/laragon/www/examen/public/template/css/style.css",
+		"/C/laragon/www/examen/app/Http/Controllers/HomeController.php",
+		"/C/laragon/www/cas-app/app/View/Components/ButtonActionTable.php",
+		"/C/laragon/www/examen/database/seeds/DatabaseSeeder.php",
+		"/C/laragon/www/examen/database/migrations/2020_06_13_224952_create_products_table.php",
+		"/C/laragon/www/examen/database/seeds/ProductSeeder.php",
+		"/C/laragon/www/examen/database/migrations/2020_06_13_223121_create_categories_table.php",
+		"/C/laragon/www/examen/database/seeds/CategorySeeder.php",
+		"/C/laragon/www/cas-app/database/migrations/2020_04_06_030308_create_roles_table.php",
+		"/C/laragon/www/examen/database/migrations/2020_06_13_224615_create_products_table.php",
+		"/C/laragon/www/examen/database/migrations/2020_06_13_224952_create_sub_categories_table.php",
+		"/C/laragon/www/examen/resources/views/layouts/app.blade.php",
+		"/C/laragon/www/examen/app/Category.php",
+		"/C/laragon/www/examen/public/css/app.css",
+		"/C/Users/alexi/Downloads/AdminBSBMaterialDesign-master/index.html",
+		"/C/laragon/www/examen/resources/views/auth/login.blade.php",
+		"/C/laragon/www/examen/database/seeds/UserSeeder.php",
+		"/C/laragon/www/examen/app/User.php",
+		"/C/Users/alexi/Downloads/AdminBSBMaterialDesign-master/pages/examples/sign-in.html",
+		"/C/laragon/www/examen/.env",
+		"/C/laragon/www/examen/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/laragon/www/examen/resources/views/welcome.blade.php",
+		"/C/laragon/www/examen/routes/web.php",
+		"/C/laragon/www/cas-app/resources/views/layouts/main.blade.php",
+		"/C/laragon/www/cas-app/resources/lang/en/words.php",
+		"/C/laragon/www/cas-app/resources/lang/es/words.php",
+		"/C/laragon/www/cas-app/resources/views/components/button-action-table.blade.php",
+		"/C/laragon/www/cas-app/resources/views/roles/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/condominiums/index.blade.php",
+		"/C/laragon/www/cas-app/resources/lang/en/validation.php",
+		"/C/laragon/www/cas-app/resources/views/layouts/account.blade.php",
+		"/C/laragon/www/cas-app/resources/views/account/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/account/personal_info.blade.php",
+		"/C/laragon/www/cas-app/resources/views/account/account_info.blade.php",
+		"/C/laragon/www/cas-app/resources/views/account/email_settings.blade.php",
+		"/C/laragon/www/cas-app/resources/views/account/change_password.blade.php",
+		"/C/laragon/www/cas-app/app/Notifications/UserResetPassword.php",
+		"/C/laragon/www/cas-app/routes/web.php",
+		"/C/laragon/www/cas-app/app/Http/Controllers/HomeController.php",
+		"/C/laragon/www/cas-app/resources/views/home.blade.php",
+		"/C/laragon/www/cas-app/resources/views/mails/mail_test.blade.php",
+		"/C/laragon/www/cas-app/app/Mail/SendMailTest.php",
+		"/C/laragon/www/cas-app/resources/views/mails",
+		"/C/laragon/www/cas-app/resources/views/boss-stages/index.blade.php",
+		"/C/laragon/www/cas-app/public/index.php",
+		"/C/laragon/www/cas-app/app/Http/Controllers/OwnerController.php",
+		"/C/laragon/www/cas-app/resources/views/auth/register.blade.php",
+		"/C/laragon/www/cas-app/app/Http/Controllers/Auth/RegisterController.php",
+		"/C/laragon/www/cas-app/vendor/laravel/ui/auth-backend/VerifiesEmails.php",
+		"/C/laragon/www/cas-app/resources/views/components/show.blade.php",
+		"/C/laragon/www/cas-app/database/seeds/UserSeeder.php",
+		"/C/laragon/www/cas-app/database/seeds/RoleSeeder.php",
+		"/C/laragon/www/cas-app/resources/views/owners/referred.blade.php",
+		"/C/laragon/www/cas-app/resources/views/layouts/auth.blade.php",
+		"/C/laragon/www/cas-app/resources/views/auth/login.blade.php",
+		"/C/laragon/www/cas-app/resources/views/layouts/referred.blade.php",
+		"/C/laragon/www/cas-app/resources/views/roles/attach_modules.blade.php",
+		"/C/laragon/www/cas-app/resources/views/roles/attach_edit_modules.blade.php",
+		"/C/laragon/www/cas-app/database/seeds/CondominiumSeeder.php",
+		"/C/laragon/www/cas-app/.env",
+		"/C/laragon/www/cas-app/resources/views/roles/attach_users.blade.php",
+		"/C/laragon/www/cas-app/resources/views/roles/attach_edit_users.blade.php",
+		"/C/laragon/www/cas-app/resources/views/roles/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/roles/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/roles/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/permissions/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/permissions/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/permissions/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/permissions/edit.blade.php",
+		"/C/laragon/www/cas-app/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/C/laragon/www/cas-app/resources/views/modules/attach_edit_roles.blade.php",
+		"/C/laragon/www/cas-app/resources/views/modules/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/modules/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/modules/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/modules/attach_roles.blade.php",
+		"/C/laragon/www/cas-app/resources/views/modules/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/boss-stages/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/boss-stages/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/boss-stages/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/administrators/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/administrators/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/administrators/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/administrators/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/owners/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/owners/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/owners/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/owners/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/users/attach_roles.blade.php",
+		"/C/laragon/www/cas-app/resources/views/users/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/users/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/users/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/users/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/users/attach_edit_roles.blade.php",
+		"/C/laragon/www/cas-app/app/View/Components/table.php",
+		"/C/laragon/www/cas-app/resources/views/estate-receipts/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/paid-receipts/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/paid-receipts/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/estate-receipts/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/estate-receipts/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/receipts/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/receipts/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/receipts/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/receipts/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/common-expenses/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/common-expenses/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/common-expenses/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/common-expenses/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/common-areas/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/common-areas/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/common-areas/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/common-areas/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/expense-reports/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/expense-reports/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/expense-reports/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/expense-reports/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/events/show.blade.php",
+		"/C/laragon/www/cas-app/resources/views/events/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/events/create.blade.php",
+		"/C/laragon/www/cas-app/resources/views/events/index.blade.php",
+		"/C/laragon/www/cas-app/resources/views/condominiumTypes/edit.blade.php",
+		"/C/laragon/www/cas-app/resources/views/condominiumTypes/create.blade.php"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 70.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "User.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"homecon",
+				"cas-app\\app\\Http\\Controllers\\HomeController.php"
+			],
+			[
+				"ownc",
+				"cas-app\\app\\Http\\Controllers\\OwnerController.php"
+			],
+			[
+				"referr",
+				"cas-app\\resources\\views\\owners\\referred.blade.php"
+			],
+			[
+				"Owcon",
+				"cas-app\\app\\Http\\Controllers\\OwnerController.php"
+			],
+			[
+				"table",
+				"cas-app\\app\\View\\Components\\table.php"
+			],
+			[
+				"resources\\views\\estate-receipts\\show.blade.php",
+				"cas-app\\resources\\views\\estate-receipts\\show.blade.php"
+			],
+			[
+				"\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\views",
+				"cas-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\views\\404.blade.php"
+			],
+			[
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\views",
+				"cas-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\views\\404.blade.php"
+			],
+			[
+				"canre",
+				"cas-app\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Passwords\\CanResetPassword.php"
+			],
+			[
+				"select.b",
+				"resources\\views\\components\\data-select.blade.php"
+			],
+			[
+				"_form",
+				"resources\\views\\condominiums\\_form.blade.php"
+			],
+			[
+				"datas",
+				"app\\View\\Components\\dataSelect.php"
+			],
+			[
+				"estates_",
+				"database\\migrations\\2020_04_28_150753_create_estates_table.php"
+			],
+			[
+				"Estate",
+				"app\\Estate.php"
+			],
+			[
+				"StateC",
+				"app\\Http\\Controllers\\EstateController.php"
+			],
+			[
+				"datase",
+				"app\\View\\Components\\dataSelect.php"
+			],
+			[
+				"index",
+				"resources\\views\\condominiums\\index.blade.php"
+			],
+			[
+				"filter-f",
+				"app\\View\\Components\\filter-date-from-to.php"
+			],
+			[
+				"card",
+				"app\\View\\Components\\card-detail-buttons.php"
+			],
+			[
+				"Form",
+				"app\\View\\Components\\Form.php"
+			],
+			[
+				"Show",
+				"app\\View\\Components\\Show.php"
+			],
+			[
+				"resources/views/layouts/acc",
+				"resources\\views\\layouts\\account.blade.php"
+			],
+			[
+				"AccountC",
+				"app\\Http\\Controllers\\AccountController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 326.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
