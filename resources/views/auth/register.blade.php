@@ -1,11 +1,13 @@
 @extends('layouts.app')
 
+@section('title', 'register')
+
 @section('content')
     <div class="card">
         <div class="body">
-            <form id="sign_in" method="POST" action="{{ route('login') }}">
+            <form id="sign_in" method="POST" action="{{ route('register') }}">
                 @csrf
-                <div class="msg">Sign in to start your session</div>
+                <div class="msg">Sign up to register</div>
                 <div class="input-group">
                     <span class="input-group-addon">
                         <i class="material-icons">person</i>
@@ -57,7 +59,7 @@
                         <i class="material-icons">lock</i>
                     </span>
                     <div class="form-line">
-                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" placeholder="password">
 
                         @error('password')
                             <span class="invalid-feedback" role="alert">
@@ -72,7 +74,7 @@
                         <i class="material-icons">lock</i>
                     </span>
                     <div class="form-line">
-                        <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
+                        <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password" placeholder="password confirm">
                     </div>
                 </div>
 

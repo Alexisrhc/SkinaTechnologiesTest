@@ -27,8 +27,13 @@
                                                 <label for="NameSurname" class="col-sm-3 control-label">Name</label>
                                                 <div class="col-sm-9">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" id="NameSurname" name="name" placeholder="Name category" value="" required>
+                                                        <input type="text" class="form-control" id="NameSurname" name="name" placeholder="Name category">
                                                     </div>
+                                                    @error('name')
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
                                                 </div>
                                             </div>
                                             <div class="form-group">

@@ -24,13 +24,17 @@
                                         <form class="form-horizontal" action="{{ route('categories.update', $category->id) }}" method="post">
                                             @method('put')
                                             @csrf
-                                            {{-- <input type="hidden" value="{{ $user[0]->id }}" name="id"> --}}
                                             <div class="form-group">
                                                 <label for="NameSurname" class="col-sm-3 control-label">Name</label>
                                                 <div class="col-sm-9">
                                                     <div class="form-line">
-                                                        <input type="text" class="form-control" id="NameSurname" name="name" placeholder="Name Surname" value="{{ $category->name }}" required>
+                                                        <input type="text" class="form-control" id="NameSurname" name="name" placeholder="Name Surname" value="{{ $category->name }}">
                                                     </div>
+                                                    @error('name')
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
                                                 </div>
                                             </div>
                                             <div class="form-group">

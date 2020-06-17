@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CategoryRequest;
+use App\Http\Requests\CategoryUpdateRequest;
 use App\category;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -36,7 +38,7 @@ class CategoryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(category $category, Request $request)
+    public function store(category $category, CategoryRequest $request)
     {
         $category->name         = $request->name;
         if ($request->status == 'on') {
@@ -79,7 +81,7 @@ class CategoryController extends Controller
      * @param  \App\category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, category $category)
+    public function update(CategoryUpdateRequest $request, category $category)
     {
         $this->authorize('onlyAdmin', Auth::user());
         $category->name = $request->name;
@@ -88,6 +90,7 @@ class CategoryController extends Controller
         }else{
             $category->status       = '0';
         }
+
         $category->save();
 
         return redirect('categories')->with('success', 'record edited successfully');

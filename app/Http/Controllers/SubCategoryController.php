@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Category;
+use App\Http\Requests\SubCategoryRequest;
 use App\SubCategory;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -37,7 +38,7 @@ class SubCategoryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request, SubCategory $subCategory)
+    public function store(SubCategoryRequest $request, SubCategory $subCategory)
     {
         $this->authorize('onlyAdmin', Auth::user());
         $subCategory->name         = $request->name;
@@ -85,16 +86,18 @@ class SubCategoryController extends Controller
      * @param  \App\SubCategory  $subCategory
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, SubCategory $subCategory)
+    public function update(SubCategoryRequest $request, SubCategory $subCategory, $id)
     {
+        // dd($id);
         $this->authorize('onlyAdmin', Auth::user());
+        $subCategory = SubCategory::findOrFail($id);;
         $subCategory->name = $request->name;
         if ($request->status == 'on') {
-            $subCategory->status       = '1';
+            $subCategory->status        = '1';
         }else{
-            $subCategory->status       = '0';
+            $subCategory->status        = '0';
         }
-        $subCategory->category_id = '1';
+        $subCategory->category_id       = $request->category_id;
         $subCategory->quantity_products = '0';
         $subCategory->save();
 

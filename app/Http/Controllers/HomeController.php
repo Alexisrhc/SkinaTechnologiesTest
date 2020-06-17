@@ -68,6 +68,11 @@ class HomeController extends Controller
         $this->authorize('onlyAdmin', Auth::user());
         $user = User::find($request->id);
         $user->name = $request->name;
+        if ($request->status == 'on') {
+            $user->status       = '1';
+        }else{
+            $user->status       = '0';
+        }
         $user->save();
         return redirect('users')->with('success', 'record edited successfully');
     }

@@ -43,7 +43,7 @@
                                             <div class="form-group">
                                                 <label for="NameSurname" class="col-sm-3 control-label">Name</label>
                                                 <div class="col-sm-9">
-                                                    <div class="form-line focused">
+                                                    <div class="form-line">
                                                         <input type="text" class="form-control" id="NameSurname" name="name" placeholder="Name Surname" value="{{ $user[0]->name }}" required>
                                                     </div>
                                                 </div>
@@ -51,11 +51,31 @@
                                             <div class="form-group">
                                                 <label for="Email" class="col-sm-3 control-label">Email</label>
                                                 <div class="col-sm-9">
-                                                    <div class="form-line focused">
+                                                    <div class="form-line">
                                                         <input type="email" class="form-control" id="Email" name="email" placeholder="Email" value="{{ $user[0]->email }}" required>
                                                     </div>
                                                 </div>
                                             </div>
+
+                                            @can('onlyAdmin', Auth::user())
+                                                <div class="form-group">
+                                                    <label for="Email" class="col-sm-3 control-label">Status</label>
+                                                    <div class="col-sm-9">
+                                                        <div class="switch">
+                                                            <label>
+                                                            Inactive
+                                                            <input type="checkbox"
+                                                                @if ($user[0]->status === '1')
+                                                                checked
+                                                                @endif
+                                                                name="status">
+                                                                <span class="lever"></span>
+                                                            Active
+                                                        </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            @endcan
                                             <div class="form-group">
                                                 <div class="col-sm-offset-3 col-sm-10">
                                                     <button type="submit" class="btn btn-danger">SUBMIT</button>

@@ -21,10 +21,10 @@
                                 </ul>
                                 <div class="tab-content">
                                     <div role="tabpanel" class="tab-pane fade active in" id="profile_settings">
-                                        <form class="form-horizontal" action="{{-- {{ route('subcategories.update', $subCategory->id) }} --}}" method="post">
+                                        <form class="form-horizontal" action="{{ route('subcategories.update', $subCategory->id) }}" method="post">
                                             @method('put')
                                             @csrf
-                                            {{-- <input type="hidden" value="{{ $user[0]->id }}" name="id"> --}}
+                                            <input type="hidden" value="{{ $subCategory->category_id }}" name="category_id">
                                             <div class="form-group">
                                                 <label for="NameSurname" class="col-sm-3 control-label">Name</label>
                                                 <div class="col-sm-9">

@@ -1,9 +1,15 @@
 @extends('layouts.app')
 
-
+@section('title', 'login')
 @section('content')
     <div class="card">
         <div class="body">
+            @if(Session::has('info'))
+                <div class="alert bg-blue alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    {{ Session::get('info') }}
+                </div>
+            @endif
             <form id="sign_in" method="POST" action="{{ route('login') }}">
                 @csrf
                 <div class="msg">Sign in to start your session</div>

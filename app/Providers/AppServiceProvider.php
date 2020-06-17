@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Category;
+use App\Observers\CategoryObserver;
 use App\Observers\ProductObserver;
 use App\Observers\SubCategoryObserver;
 use App\Product;
@@ -29,5 +31,6 @@ class AppServiceProvider extends ServiceProvider
     {
         Product::observe(ProductObserver::class);
         SubCategory::observe(SubCategoryObserver::class);
+        Category::observe(CategoryObserver::class);
     }
 }

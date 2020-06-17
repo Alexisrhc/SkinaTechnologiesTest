@@ -29,6 +29,11 @@
                                                     <div class="form-line">
                                                         <input type="text" class="form-control" id="NameSurname" name="name" placeholder="Name sub category" value="" required>
                                                     </div>
+                                                    @error('name')
+                                                        <span class="invalid-feedback" role="alert">
+                                                            <strong>{{ $message }}</strong>
+                                                        </span>
+                                                    @enderror
                                                 </div>
                                             </div>
                                             <div class="form-group">

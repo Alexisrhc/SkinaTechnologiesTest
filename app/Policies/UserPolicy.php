@@ -17,8 +17,15 @@ class UserPolicy
      */
     public function __construct()
     {
-        //
+
     }
+
+    // public function inactive(User $user)
+    // {
+    //     if ($user->status === '0') {
+    //         return true;
+    //     }
+    // }
 
     public function onlyAdmin(User $user)
     {
